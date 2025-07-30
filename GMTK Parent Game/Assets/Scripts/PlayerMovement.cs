@@ -48,6 +48,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+        if (currentVelocity != Vector2.zero)
+        {
+            rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+        }
     }
 }
