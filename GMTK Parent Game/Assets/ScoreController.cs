@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ScoreController : MonoBehaviour
 {
     public int score;
     public float timer;
-    public Text scoreText;
-    public Text timerText;
+    public TMP_Text scoreText;
+    public TMP_Text timerText;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,18 @@ public class ScoreController : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        timerText = timer.ToString();
+
+        float minutes = Mathf.FloorToInt(timer / 60);
+        float seconds = Mathf.FloorToInt(timer % 60);
+
+        string timerTextString = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        timerText.SetText("Timer: " + timerTextString);
+
+        if(timer <= 0)
+        {
+            timer = 0;
+        }
+
     }
 }
