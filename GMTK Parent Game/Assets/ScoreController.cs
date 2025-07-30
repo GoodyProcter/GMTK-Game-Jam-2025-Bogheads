@@ -30,7 +30,7 @@ public class ScoreController : MonoBehaviour
 
         timerText.SetText("Timer: " + timerTextString);
 
-        if(timer <= 0)
+        if (timer <= 0)
         {
             timer = 0;
         }
