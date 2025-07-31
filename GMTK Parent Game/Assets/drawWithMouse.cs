@@ -9,6 +9,7 @@ public class drawWithMouse : MonoBehaviour
     [SerializeField] private float minDistance = 0.1f;
     private bool colliderActive = false;
     private float countDownDestroyCollider;
+    public Interactable circledInteractable;
 
     private void Start()
     {
@@ -84,6 +85,9 @@ public class drawWithMouse : MonoBehaviour
         {
             Debug.Log("Collided with: " + collision.gameObject.name);
             CircleCollider2D colliderToDestroy = GetComponent<CircleCollider2D>();
+            circledInteractable = collision.gameObject.GetComponent<Interactable>();
+            circledInteractable.Interact();
+            
             Destroy(colliderToDestroy);
             colliderActive = false;
         }
