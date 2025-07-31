@@ -7,11 +7,18 @@ public class smallObjectScript : MonoBehaviour
     public Rigidbody2D myRigidBody;
     public GameObject player;
     public PlayerMovement playerMovement;
+    public GameObject particles;
+
+    [SerializeField] Sprite[] randomBreakables;
+    private Sprite newSprite;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        newSprite = randomBreakables[Random.Range(0, randomBreakables.Length)];
+        gameObject.GetComponent<SpriteRenderer>().sprite = newSprite;
     }
 
     // Update is called once per frame
@@ -29,10 +36,16 @@ public class smallObjectScript : MonoBehaviour
         }
         else
         {
-            if(collision.gameObject.tag == "Small Breakable")
-            {
-                return;
-            } else Destroy(gameObject);
+            //if (collision.gameObject.tag == "Small Breakable")
+            //{
+            //    return;
+            //}
+            //else
+            //{
+                Instantiate(particles, transform.position, Quaternion.identity);
+                Destroy(gameObject);
+            //}
+            
         }
         
     }
@@ -41,13 +54,13 @@ public class smallObjectScript : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            myRigidBody.AddForce((transform.up * playerMovement.playerMoveY) / 90);
-            myRigidBody.AddForce((transform.right * playerMovement.playerMoveX) / 90);
+            myRigidBody.AddForce((transform.up * playerMovement.playerMoveY) / 120);
+            myRigidBody.AddForce((transform.right * playerMovement.playerMoveX) / 120);
         }
         else
         {
-            myRigidBody.AddForce((transform.up * playerMovement.playerMoveY) / 75);
-            myRigidBody.AddForce((transform.right * playerMovement.playerMoveX) / 75);
+            myRigidBody.AddForce((transform.up * playerMovement.playerMoveY) / 100);
+            myRigidBody.AddForce((transform.right * playerMovement.playerMoveX) / 100);
         }
 
         

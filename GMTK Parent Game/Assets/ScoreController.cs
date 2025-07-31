@@ -8,6 +8,7 @@ public class ScoreController : MonoBehaviour
 {
     public int score;
     public float timer;
+    public float scoreDecreaseDelay;
     public TMP_Text scoreText;
     public TMP_Text timerText;
 
@@ -39,6 +40,12 @@ public class ScoreController : MonoBehaviour
             timer = 0;
         }
 
+        if(scoreDecreaseDelay > 0)
+        {
+            Debug.Log("scoredecreasedelay going down");
+            scoreDecreaseDelay -= Time.deltaTime;
+        }
+
     }
 
     public void taskScoreIncrease()
@@ -50,9 +57,16 @@ public class ScoreController : MonoBehaviour
         scoreText.SetText("Score: " + score.ToString());
     }
 
-    void taskScoreDecrease()
+    public void scoreDecrease()
     {
+        Debug.Log("scoreDecrease");
 
+        if (scoreDecreaseDelay <= 0)
+        {
+            Debug.Log("Score Should Go Down");
+            score -= 1;
+            scoreText.SetText("Score: " + score.ToString());
+        }
     }
 
 

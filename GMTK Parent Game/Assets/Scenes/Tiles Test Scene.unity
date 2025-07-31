@@ -130,6 +130,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (1)
@@ -195,6 +207,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (6)
@@ -252,6 +276,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+--- !u!114 &452642359 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3845296913749178555, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
+  m_PrefabInstance: {fileID: 1310428457874839583}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ddea09ae1ff51647b06340d6a614e12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &526594076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1623,6 +1658,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (2)
@@ -1688,6 +1735,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (3)
@@ -1999,6 +2058,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (4)
@@ -2275,7 +2346,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 6abf1d99fcfdb1245a2dc805e0c53e3f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7916,6 +7987,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (7)
@@ -7981,6 +8064,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable (5)
@@ -8038,6 +8133,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+--- !u!1 &149375976373662521 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 420676659596423624, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
+  m_PrefabInstance: {fileID: 8404164281747699095}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1310428457874839583
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8091,6 +8191,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3845296913749178555, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
+      propertyPath: score
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3845296913749178555, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 1252581311}
@@ -8103,6 +8207,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
+--- !u!114 &6405404966257988602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149375976373662521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90593ec11b8e79c408399aaa40dc919e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1455674391}
+  playerMovement: {fileID: 1854254804}
+  scoreController: {fileID: 452642359}
 --- !u!1001 &7687179834056084935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8172,6 +8291,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 555745497577352031, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 555745497577352031, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 555745497577352031, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1455674391}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1854254804}
+    - target: {fileID: 643539490528813854, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
+      propertyPath: scoreController
+      value: 
+      objectReference: {fileID: 452642359}
     - target: {fileID: 777705716627273812, guid: 5202d433ca930c74ba45a4e83dbb72cc, type: 3}
       propertyPath: m_Name
       value: TestPhysicsObjectSmallAndBreakable
@@ -8378,10 +8521,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8484372408227143694, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6783c04c2d0898545b3201871c730773, type: 3}
+    - target: {fileID: 8484372408227143694, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484372408227143694, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8484372408227143694, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 420676659596423624, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6405404966257988602}
   m_SourcePrefab: {fileID: 100100000, guid: f76bf3716ff3c784cbede2d6f07c444f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
