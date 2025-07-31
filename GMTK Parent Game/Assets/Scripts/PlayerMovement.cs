@@ -11,12 +11,11 @@ public class PlayerMovement : MonoBehaviour
 
     public float playerMoveX;
     public float playerMoveY;
+    //public float currentSpeed;
 
     private Rigidbody2D rb;
     private Vector2 inputDirection;
     private Vector2 currentVelocity;
-
-    private bool isInteracting = false;
 
     private void Start()
     {
@@ -34,11 +33,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             speed *= sprintSpeedMult;
-        }
-
-        if (isInteracting)
-        {
-            speed *= 0.3f;
         }
 
         Vector2 targetVelocity = inputDirection * speed;
@@ -66,10 +60,5 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
         }
-    }
-
-    public void SetInteracting(bool interacting)
-    {
-        isInteracting = interacting;
     }
 }
