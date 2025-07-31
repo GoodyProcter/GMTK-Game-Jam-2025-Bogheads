@@ -8,6 +8,10 @@ public class Interactable : MonoBehaviour
 
     public string taskName = "temp";
 
+    public ScoreController scoreController;
+
+    public int scoreValue;
+
     private void Update()
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
@@ -19,6 +23,8 @@ public class Interactable : MonoBehaviour
     private void Interact()
     {
         Debug.Log("task completed: " + taskName);
+        scoreController.currentinteractingObject = gameObject;
+        scoreController.taskScoreIncrease();
         Destroy(gameObject);
     }
 

@@ -11,11 +11,15 @@ public class ScoreController : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text timerText;
 
+    public GameObject currentinteractingObject;
+    public Interactable currentObjectScript;
+
     // Start is called before the first frame update
     void Start()
     {
         score = 0;
         timer = 180;
+        scoreText.SetText("Score: " + score.ToString());
     }
 
     // Update is called once per frame
@@ -36,4 +40,20 @@ public class ScoreController : MonoBehaviour
         }
 
     }
+
+    public void taskScoreIncrease()
+    {
+        currentObjectScript = currentinteractingObject.GetComponent<Interactable>();
+
+        score += currentObjectScript.scoreValue;
+
+        scoreText.SetText("Score: " + score.ToString());
+    }
+
+    void taskScoreDecrease()
+    {
+
+    }
+
+
 }

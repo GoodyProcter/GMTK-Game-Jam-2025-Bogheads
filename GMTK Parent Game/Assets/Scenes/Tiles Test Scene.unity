@@ -1693,103 +1693,17 @@ Transform:
   - {fileID: 1880432112}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1288815327
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1288815329}
-  - component: {fileID: 1288815328}
-  - component: {fileID: 1288815330}
-  m_Layer: 0
-  m_Name: Cursor Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1288815328
+--- !u!114 &1288815328 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 565875610365042123, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
+  m_PrefabInstance: {fileID: 1310428457874839583}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288815327}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13a6c3180720d8c448d2e890c830e3be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultMouseTexture: {fileID: 2800000, guid: e65a12536155d5b43a4da18ff860d75e, type: 3}
-  hoverMouseTexture: {fileID: 2800000, guid: 6c388d0162ea1fd41865c3f28bd62116, type: 3}
-  grabMouseTexture: {fileID: 2800000, guid: 5650f11f2269a654ba42edbb86d9964e, type: 3}
-  mouseResetTimer: 0.1
-  mouseResetTrigger: 0
-  mouseState: 0
---- !u!4 &1288815329
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288815327}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.748013, y: -2.3760169, z: 0.094860464}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1288815330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1288815327}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: d242faa00c67b954b93cffe0ddb3d981, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1288815328}
-        m_TargetAssemblyTypeName: cursorScript, Assembly-CSharp
-        m_MethodName: OnClick
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: fff38f61-7d6b-4783-afaa-4081e81d1afb
-    m_ActionName: Gameplay/Click[/Mouse/leftButton]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Gameplay
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!114 &1293278930 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5402124113949651252, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
@@ -7694,35 +7608,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3845296913749178555, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
+      propertyPath: timerText
+      value: 
+      objectReference: {fileID: 1293278930}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2279270157310950067, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1310428457874839585}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
---- !u!1 &1310428457874839584 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2279270157310950067, guid: fc62fc7f1b19dcb4db7a8848cc0fc8e2, type: 3}
-  m_PrefabInstance: {fileID: 1310428457874839583}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1310428457874839585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310428457874839584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ddea09ae1ff51647b06340d6a614e12, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: 0
-  timer: 0
-  scoreText: {fileID: 0}
-  timerText: {fileID: 1293278930}
 --- !u!1001 &7687179834056084935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7792,14 +7686,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5402124113949651252, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
-      propertyPath: m_text
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5474914841733056186, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
-      propertyPath: m_Name
-      value: Timer Text
-      objectReference: {fileID: 0}
     - target: {fileID: 8501316135013157795, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -7900,5 +7786,4 @@ SceneRoots:
   - {fileID: 937773080}
   - {fileID: 1310428457874839583}
   - {fileID: 1807345952}
-  - {fileID: 1288815329}
   - {fileID: 7687179834056084935}
