@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Interactable
   - MouseInteractable
+  - Small Breakable
   layers:
   - Default
   - TransparentFX

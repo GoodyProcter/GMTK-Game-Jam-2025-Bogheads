@@ -9,6 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public float acceleration = 10f;
     public float deceleration = 8f;
 
+    public float playerMoveX;
+    public float playerMoveY;
+    //public float currentSpeed;
+
     private Rigidbody2D rb;
     private Vector2 inputDirection;
     private Vector2 currentVelocity;
@@ -19,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     private void Update()
-    {
+    {        
         float directionX = Input.GetAxisRaw("Horizontal");
         float directionY = Input.GetAxisRaw("Vertical");
 
@@ -44,6 +48,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         currentVelocity = Vector2.Lerp(currentVelocity, targetVelocity, lerpSpeed * Time.deltaTime);
+
+        playerMoveX = currentVelocity.x;
+        playerMoveY = currentVelocity.y;
+
     }
 
     private void FixedUpdate()
