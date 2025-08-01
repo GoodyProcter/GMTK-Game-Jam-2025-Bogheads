@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4900822371187351920}
   - component: {fileID: 3214581360980591788}
   - component: {fileID: 555733733467999749}
-  - component: {fileID: 1313196040864263256}
   - component: {fileID: 4993928984834174649}
   m_Layer: 0
   m_Name: Dog
@@ -132,19 +131,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
---- !u!114 &1313196040864263256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6006767404443439192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa767a1f0ebcd18478866d2cfbe1a7e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!195 &4993928984834174649
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -1,16 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class Interactable : MonoBehaviour
 {
-    private bool playerInRange = false;
+    private bool hasInteracted = false; // stop repeat use 
 
-    public string taskName = "temp";
+    [Header("Task Info")]
+    public string taskName = ""; 
+    public string setFlagOnInteract; // flag to sent after interaction
+    public int scoreValue; // score added after interaction
 
+    [Header("References")]
+    public BasicAI NPC; // reference to NPC basicAI script
     public ScoreController scoreController;
 
-    public int scoreValue;
+    // what this interaction does, set in inspector in the interactable tasks
+    public enum ActionType
+    {
+        None, // does nothing
+        FollowPlayer, // makes them follow player
+        GoToStep // makes go to named routine step
+    }
+
+    [Header("Action")]
+    public ActionType Action = ActionType.None; // what to do on interaction
+    public string StepName; // used only for GoToStep - the name of routine step to send them to
 
     private void Update()
     {
@@ -22,10 +38,36 @@ public class Interactable : MonoBehaviour
 
     public void Interact()
     {
-        Debug.Log("task completed: " + taskName);
-        scoreController.currentinteractingObject = gameObject;
-        scoreController.taskScoreIncrease();
-        Destroy(gameObject);
+        if (hasInteracted) return;
+        hasInteracted = true;
+
+        // set flag like "FoodReady" that other scripts can use
+        if (!string.IsNullOrEmpty(setFlagOnInteract)) GameFlags.Instance.SetFlag(setFlagOnInteract, true);
+
+        if (NPC != null)
+        {
+            switch (Action)
+            {
+                case ActionType.FollowPlayer:
+                    var player = GameObject.FindWithTag("Player")?.transform;
+                    if (player) NPC.StartFollowing(player); // tell to follow
+                    break;
+
+                case ActionType.GoToStep:
+                    if (!string.IsNullOrEmpty(StepName))
+                        NPC.StopFollowing(StepName); // send to specific step
+                    break;
+            }
+        }
+
+        // add score to player
+        if (scoreController != null)
+        {
+            scoreController.score += scoreValue;
+            scoreController.scoreText.SetText("Score: " + scoreController.score.ToString());
+        }
+
+        Debug.Log($"Task completed: {taskName}");
     }
 
     //private void OnTriggerEnter2D(Collider2D other)
