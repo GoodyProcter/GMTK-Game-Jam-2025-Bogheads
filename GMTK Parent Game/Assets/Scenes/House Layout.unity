@@ -6833,9 +6833,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6006767404443439192, guid: 5dc9c941e1065954db231c978472eed6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1692482468}
-    - targetCorrespondingSourceObject: {fileID: 6006767404443439192, guid: 5dc9c941e1065954db231c978472eed6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1692482469}
   m_SourcePrefab: {fileID: 100100000, guid: 5dc9c941e1065954db231c978472eed6, type: 3}
 --- !u!1 &1692482467 stripped
 GameObject:
@@ -6863,24 +6860,10 @@ MonoBehaviour:
   - destination: {fileID: 470981620}
     waitTime: 5
     waitForTrigger: 0
-    skipIfTrue: 
+    skipIfTrue: DogOutside
     stepName: goToDogPoint
   followTarget: {fileID: 0}
   isFollowingPlayer: 0
---- !u!114 &1692482469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1692482467}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a80955f0726ced4d99e3c2aac277ca6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  npc: {fileID: 1692482468}
-  flagName: KidWoke
 --- !u!1 &1730334499
 GameObject:
   m_ObjectHideFlags: 0
@@ -26220,7 +26203,7 @@ MonoBehaviour:
   setFlagOnInteract: KidClean
   scoreValue: 0
   requireTrueFlags:
-  - KidJumped
+  - DogJumped
   requireFalseFlags: []
   NPC: {fileID: 0}
   scoreController: {fileID: 0}
