@@ -92,6 +92,10 @@ public class BasicAI : MonoBehaviour
     public void TriggerNextStep()
     {
         if (!isWaiting) return;
+
+        // stop any running WaitThenNexts
+        StopAllCoroutines();
+
         isWaiting = false;
         NextStep();
     }
