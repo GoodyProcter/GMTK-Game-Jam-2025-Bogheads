@@ -464,6 +464,7 @@ GameObject:
   - component: {fileID: 181220445}
   - component: {fileID: 181220447}
   - component: {fileID: 181220446}
+  - component: {fileID: 181220448}
   m_Layer: 0
   m_Name: DOGDOOR
   m_TagString: MouseInteractable
@@ -631,6 +632,27 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &181220448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181220442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e35a1ef79dfebcc46a813e4b25446f8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskName: geneWakeUp
+  setFlagOnInteract: geneWakeUp
+  scoreValue: 0
+  requireTrueFlags: []
+  requireFalseFlags: []
+  NPC: {fileID: 559600734}
+  scoreController: {fileID: 0}
+  Action: 0
+  StepName: 
 --- !u!1 &238783549
 GameObject:
   m_ObjectHideFlags: 0
@@ -5694,10 +5716,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 559600733}
-  - component: {fileID: 559600732}
   - component: {fileID: 559600735}
   - component: {fileID: 559600734}
   - component: {fileID: 559600736}
+  - component: {fileID: 559600738}
+  - component: {fileID: 559600737}
+  - component: {fileID: 559600739}
   m_Layer: 0
   m_Name: Neighbour Gene
   m_TagString: Untagged
@@ -5705,19 +5729,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &559600732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559600731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da3f1be9449038746b5e804df7f874cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 10
 --- !u!4 &559600733
 Transform:
   m_ObjectHideFlags: 0
@@ -5747,59 +5758,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   routineSteps:
   - destination: {fileID: 1214963775}
+    waitTime: 0
+    waitForTrigger: 1
+    skipIfTrue: 
+    skipIfFalse: 
+    stepName: 
+  - destination: {fileID: 1214963775}
     waitTime: 20
     waitForTrigger: 0
     skipIfTrue: DogDistracted
     skipIfFalse: 
-    stepName: Gene Slumbers oh so peacefully.
+    stepName: 
   - destination: {fileID: 1321912836}
     waitTime: 0
     waitForTrigger: 0
     skipIfTrue: DogDistracted
     skipIfFalse: 
-    stepName: to Gene Node 1
+    stepName: 
   - destination: {fileID: 1631449000}
     waitTime: 0
     waitForTrigger: 0
     skipIfTrue: DogDistracted
     skipIfFalse: 
-    stepName: Gene knocks over the bins to Gene Node 2
+    stepName: 
   - destination: {fileID: 2069978427}
-    waitTime: 1e+12
+    waitTime: 1e+10
     waitForTrigger: 0
     skipIfTrue: DogDistracted
     skipIfFalse: 
-    stepName: Gene node 3 also known as Gene runs into the endless expanse
+    stepName: 
   - destination: {fileID: 1321912836}
     waitTime: 0
     waitForTrigger: 0
     skipIfTrue: 
     skipIfFalse: 
-    stepName: Gene node 1 careful
+    stepName: 
   - destination: {fileID: 1791855970}
     waitTime: 0
     waitForTrigger: 0
     skipIfTrue: 
     skipIfFalse: 
-    stepName: Gene node 4
+    stepName: 
   - destination: {fileID: 349663715}
     waitTime: 0
     waitForTrigger: 0
     skipIfTrue: 
     skipIfFalse: 
-    stepName: Gene node 5
+    stepName: 
   - destination: {fileID: 1268394891}
     waitTime: 0
     waitForTrigger: 0
     skipIfTrue: 
     skipIfFalse: 
-    stepName: Gene node 6
+    stepName: 
   - destination: {fileID: 2069978427}
-    waitTime: 0
+    waitTime: 1e+10
     waitForTrigger: 0
     skipIfTrue: 
     skipIfFalse: 
-    stepName: Gene node 3 chill
+    stepName: 
   followTarget: {fileID: 0}
   isFollowingPlayer: 0
 --- !u!212 &559600735
@@ -5876,6 +5893,92 @@ NavMeshAgent:
   m_BaseOffset: 0.25
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!50 &559600737
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559600731}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!61 &559600738
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559600731}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.5}
+    newSize: {x: 0.32, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5}
+  m_EdgeRadius: 0
+--- !u!114 &559600739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 559600731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a80955f0726ced4d99e3c2aac277ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc: {fileID: 559600734}
+  flagName: DogDistracted
 --- !u!1 &593612702
 GameObject:
   m_ObjectHideFlags: 0
