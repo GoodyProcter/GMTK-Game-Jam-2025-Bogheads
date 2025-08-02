@@ -13,6 +13,7 @@ public class BasicAI : MonoBehaviour
         public float waitTime = 1f; // how long to wait once they get there
         public bool waitForTrigger = false; // if true, wait forever until told to continue, not sure it works
         public string skipIfTrue; // optional - flag name, if true then skip that step 
+        public string skipIfFalse;
         public string stepName; // nickname to jump to this step
     }
 
@@ -26,6 +27,8 @@ public class BasicAI : MonoBehaviour
 
     public Transform followTarget; // the player
     public bool isFollowingPlayer = false; // if true then follow player each frame 
+
+    private int prevWaitTimer;
 
     private void Start()
     {
@@ -71,9 +74,18 @@ public class BasicAI : MonoBehaviour
     IEnumerator WaitThenNext(float waitTime)
     {
         isWaiting = true;
+        int startedStep = currentStep;
+        Debug.Log($"{name} started step {startedStep}");
         yield return new WaitForSeconds(waitTime);
+
+        if (currentStep != startedStep || currentStep != prevWaitTimer)
+        {
+            yield break;
+        }
+
         isWaiting = false;
         NextStep();
+
     }
 
     // if waiting for trigger, call externally to continue
@@ -117,6 +129,20 @@ public class BasicAI : MonoBehaviour
             StartStep(); // call until valid step found
             return;
         }
+
+        // check if step should be not skipped based on game flag like "FoodReady" 
+        if (!string.IsNullOrEmpty(step.skipIfFalse) && !GameFlags.Instance.GetFlag(step.skipIfFalse))
+        {
+            Debug.Log("should skip because false");
+            
+            currentStep++;
+            StartStep(); // call until valid step found
+            return;
+        }
+
+        prevWaitTimer = currentStep;
+
+        Debug.Log($"{name} started step {currentStep}");
 
         // otherwise start walking to destination
         agent.SetDestination(step.destination.position);
