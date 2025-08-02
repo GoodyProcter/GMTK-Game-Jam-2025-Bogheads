@@ -12,6 +12,10 @@ public class Interactable : MonoBehaviour
     public string setFlagOnInteract; // flag to sent after interaction
     public int scoreValue; // score added after interaction
 
+    [Header("Interaction Conditions")]
+    public List<string> requireTrueFlags; // all must be true
+    public List<string> requireFalseFlags; // all must be false
+
     [Header("References")]
     public BasicAI NPC; // reference to NPC basicAI script
     public ScoreController scoreController;
@@ -39,6 +43,17 @@ public class Interactable : MonoBehaviour
     public void Interact()
     {
         if (hasInteracted) return;
+
+        // check flag conditions first
+        foreach (var flag in requireTrueFlags)
+        {
+            if (!GameFlags.Instance.GetFlag(flag)) return;
+        }
+        foreach (var flag in requireFalseFlags)
+        {
+            if (GameFlags.Instance.GetFlag(flag)) return;
+        }
+
         hasInteracted = true;
 
         // set flag like "FoodReady" that other scripts can use
