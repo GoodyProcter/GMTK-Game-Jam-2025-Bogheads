@@ -34,14 +34,13 @@ public class Interactable : MonoBehaviour
 
     private void Update()
     {
-        //if (playerInRange && Input.GetKeyDown(KeyCode.E))
-        //{
-        //    Interact();
-        //}
+       
     }
 
     public void Interact()
     {
+        Debug.Log("Mouse Interacted with " + gameObject.name);
+
         if (hasInteracted) return;
 
         // check flag conditions first
@@ -84,6 +83,8 @@ public class Interactable : MonoBehaviour
 
         Debug.Log($"Task completed: {taskName}");
     }
+
+    
 
     //private void OnTriggerEnter2D(Collider2D other)
     //{
