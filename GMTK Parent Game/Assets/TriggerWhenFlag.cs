@@ -14,6 +14,7 @@ public class TriggerWhenFlag : MonoBehaviour
     {
         if (GameFlags.Instance.GetFlag(flagName))
         {
+            Debug.Log($"TriggerWhenFlag {npc.name} resumes (flag {flagName})");
             npc.TriggerNextStep();
             enabled = false; // only do once then disable
         }
