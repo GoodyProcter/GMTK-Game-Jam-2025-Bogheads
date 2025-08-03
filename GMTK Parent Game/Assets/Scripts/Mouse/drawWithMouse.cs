@@ -10,6 +10,7 @@ public class drawWithMouse : MonoBehaviour
     private bool colliderActive = false;
     private float countDownDestroyCollider;
     public Interactable circledInteractable;
+    public miniGameChecker miniGameChecker;
 
     private void Start()
     {
@@ -20,6 +21,12 @@ public class drawWithMouse : MonoBehaviour
 
     private void Update()
     {
+        if (miniGameChecker.miniGameActive == true)
+        {
+            line.enabled = false;
+        }
+        else line.enabled = true;
+
         Vector3 currentPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         currentPosition.z = 0f;
 

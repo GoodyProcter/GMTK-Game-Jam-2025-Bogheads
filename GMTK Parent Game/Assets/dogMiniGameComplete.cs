@@ -7,6 +7,9 @@ public class dogMiniGameComplete : MonoBehaviour
     public string flagName = "";
     public string flagName2 = "";
     public miniGameChecker miniGameChecker;
+    public GameObject dog;
+    public GameObject dogTeleport;
+    public GameObject dogMiniGame;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +26,8 @@ public class dogMiniGameComplete : MonoBehaviour
             GameFlags.Instance.SetFlag(flagName, true);
             GameFlags.Instance.SetFlag(flagName2, true);
             miniGameChecker.miniGameActive = false;
+            dog.transform.position = dogTeleport.transform.position;
+            dogMiniGame.SetActive(false);
         }
     }   
     

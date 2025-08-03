@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 inputDirection;
     private Vector2 currentVelocity;
+    public miniGameChecker miniGameChecker;
 
     private void Start()
     {
@@ -24,41 +25,49 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {        
-        float directionX = Input.GetAxisRaw("Horizontal");
-        float directionY = Input.GetAxisRaw("Vertical");
-
-        inputDirection = new Vector2(directionX, directionY).normalized;
-
-        float speed = moveSpeed;
-        if (Input.GetKey(KeyCode.LeftShift))
+        if(miniGameChecker.miniGameActive == false)
         {
-            speed *= sprintSpeedMult;
+            float directionX = Input.GetAxisRaw("Horizontal");
+            float directionY = Input.GetAxisRaw("Vertical");
+
+            inputDirection = new Vector2(directionX, directionY).normalized;
+
+            float speed = moveSpeed;
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                speed *= sprintSpeedMult;
+            }
+
+            Vector2 targetVelocity = inputDirection * speed;
+            float lerpSpeed;
+
+            if (inputDirection.magnitude > 0)
+            {
+                lerpSpeed = acceleration;
+            }
+            else
+            {
+                lerpSpeed = deceleration;
+            }
+
+            currentVelocity = Vector2.Lerp(currentVelocity, targetVelocity, lerpSpeed * Time.deltaTime);
+
+            playerMoveX = currentVelocity.x;
+            playerMoveY = currentVelocity.y;
         }
-
-        Vector2 targetVelocity = inputDirection * speed;
-        float lerpSpeed;
-
-        if (inputDirection.magnitude > 0)
-        {
-            lerpSpeed = acceleration;
-        }
-        else
-        {
-            lerpSpeed = deceleration;
-        }
-
-        currentVelocity = Vector2.Lerp(currentVelocity, targetVelocity, lerpSpeed * Time.deltaTime);
-
-        playerMoveX = currentVelocity.x;
-        playerMoveY = currentVelocity.y;
+        
 
     }
 
     private void FixedUpdate()
     {
-        if (currentVelocity != Vector2.zero)
+        if(miniGameChecker.miniGameActive == false)
         {
-            rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+            if (currentVelocity != Vector2.zero)
+            {
+                rb.MovePosition(rb.position + currentVelocity * Time.fixedDeltaTime);
+            }
         }
+        
     }
 }

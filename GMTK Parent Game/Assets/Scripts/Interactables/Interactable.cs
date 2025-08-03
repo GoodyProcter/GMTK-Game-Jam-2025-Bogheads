@@ -6,7 +6,9 @@ using UnityEngine.UIElements;
 public class Interactable : MonoBehaviour
 {
     private bool hasInteracted = false; // stop repeat use 
-    public bool batteriesHidden; 
+    public bool batteriesHidden;
+    public GameObject dogMiniGame;
+    public miniGameChecker miniGameChecker;
 
     [Header("Task Info")]
     public string taskName = ""; 
@@ -87,6 +89,12 @@ public class Interactable : MonoBehaviour
         if(gameObject.name == "REMOTE")
         {
             batteriesHidden = true;
+        }
+
+        if(gameObject.name == "DOGDOOR")
+        {
+            dogMiniGame.SetActive(true);
+            miniGameChecker.miniGameActive = true;
         }
     }
 
