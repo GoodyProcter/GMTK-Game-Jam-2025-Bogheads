@@ -6,6 +6,7 @@ using UnityEngine.UIElements;
 public class Interactable : MonoBehaviour
 {
     private bool hasInteracted = false; // stop repeat use 
+    public bool batteriesHidden; 
 
     [Header("Task Info")]
     public string taskName = ""; 
@@ -82,6 +83,11 @@ public class Interactable : MonoBehaviour
         }
 
         Debug.Log($"Task completed: {taskName}");
+
+        if(gameObject.name == "REMOTE")
+        {
+            batteriesHidden = true;
+        }
     }
 
     

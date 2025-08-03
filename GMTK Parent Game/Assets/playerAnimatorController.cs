@@ -15,7 +15,7 @@ public class playerAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.S) == true)
+        if (Input.GetKey(KeyCode.S) == true || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
         {
             Debug.Log("down");
 
@@ -25,7 +25,7 @@ public class playerAnimatorController : MonoBehaviour
         } 
         else animator.SetBool("Down", false);
 
-        if(Input.GetKey(KeyCode.W) == true && Input.GetKey(KeyCode.S) == false)
+        if((Input.GetKey(KeyCode.W) == true && Input.GetKey(KeyCode.S) == false) || (Input.GetKey(KeyCode.W) == true && Input.GetKey(KeyCode.A) == false) || (Input.GetKey(KeyCode.W) == true && Input.GetKey(KeyCode.D) == false))
         {
             Debug.Log("up");
 
