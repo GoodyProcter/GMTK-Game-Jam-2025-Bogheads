@@ -7399,12 +7399,28 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8192491823672889360}
     m_Modifications:
+    - target: {fileID: 1085670434919113060, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174607748935240254, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 410.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2174607748935240254, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 168.4
+      objectReference: {fileID: 0}
     - target: {fileID: 3670863695249793355, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_Name
       value: DogMiniGame
       objectReference: {fileID: 0}
     - target: {fileID: 3670863695249793355, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4897543298907330430, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5676829111356676355, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
@@ -7449,7 +7465,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5984615936746411576, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 506.8
+      value: -434.09998
       objectReference: {fileID: 0}
     - target: {fileID: 5984615936746411576, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -7496,12 +7512,20 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6197368117538435300, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6197368117538435300, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6197368117538435300, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6292314427627349480, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_Spacing.x
+      value: -734.1
       objectReference: {fileID: 0}
     - target: {fileID: 6567648213989128808, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: dog
@@ -7527,6 +7551,10 @@ PrefabInstance:
       propertyPath: miniGameChecker
       value: 
       objectReference: {fileID: 452642363}
+    - target: {fileID: 8194907685483775324, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 968bd77a9bcf00a4387e7b7e4f20f2ae, type: 3}
     - target: {fileID: 8731740111955575897, guid: 10c75c28270bd7c4fa41d4aa6a475005, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -10692,6 +10720,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1980688220493591367, guid: 421b5259c3c533f41b0b5bec5480b5dc, type: 3}
+      propertyPath: miniGameChecker
+      value: 
+      objectReference: {fileID: 452642363}
     - target: {fileID: 5613652838142637516, guid: 421b5259c3c533f41b0b5bec5480b5dc, type: 3}
       propertyPath: m_Name
       value: Player
@@ -61804,6 +61836,14 @@ PrefabInstance:
     - target: {fileID: 1550992409599944417, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550992409599944417, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1550992409599944417, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
+      propertyPath: m_MatchWidthOrHeight
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5402124113949651252, guid: e0e9e42c78f53a74ebdbf8065be8993c, type: 3}
       propertyPath: m_text
