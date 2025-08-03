@@ -148,6 +148,8 @@ public class BasicAI : MonoBehaviour
 
         Debug.Log($"{name} started step {currentStep}");
 
+        Debug.Log($"{name} dest = {step.destination.name}");
+
         // otherwise start walking to destination
         agent.SetDestination(step.destination.position);
     }

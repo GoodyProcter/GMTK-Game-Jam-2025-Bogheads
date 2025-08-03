@@ -5,7 +5,7 @@ using UnityEngine;
 public class kidOutsideFlag : MonoBehaviour
 {
     public GameObject kid;
-    public bool hasKidCollided = false;
+    //public bool hasKidCollided = false;
     public string flagName = "";
 
     // Start is called before the first frame update
@@ -25,6 +25,7 @@ public class kidOutsideFlag : MonoBehaviour
         if (collision.gameObject.name == kid.name)
         {
             GameFlags.Instance.SetFlag(flagName, true);
+            Debug.Log("kidOutsideFlag set " + flagName);
         }
     }
 }

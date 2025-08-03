@@ -5,25 +5,47 @@ using UnityEngine;
 public class aliensGrab : MonoBehaviour
 {
     public GameObject dog;
+    public BasicAI npc;
+    public string flagToSet = "dogGrabbed";
+    bool dogGrabbed = false;
+    readonly Vector3 beamOffset = new Vector3(0f, -2.0f, 0f);
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void OnTriggerEnter2D(Collider2D collider)
     {
+        Debug.Log($"aliensGrab hit {collider.gameObject.name}");
 
+        if (dogGrabbed || collider.gameObject != dog) return;
+
+        dogGrabbed = true;
+
+        // snap dog under ship & spin it
+        var dogAgent = dog.GetComponent<UnityEngine.AI.NavMeshAgent>();
+        if (dogAgent) dogAgent.enabled = false;
+        var dogRb = dog.GetComponent<Rigidbody2D>();
+        if (dogRb) dogRb.simulated = false;
+
+        var follow = dog.AddComponent<DogBeamFollow>();
+        follow.ufo = transform;
+        follow.offset = beamOffset;
+
+        GameFlags.Instance.SetFlag(flagToSet, true);
+        Debug.Log($"aliensGrab {flagToSet}=TRUE");
+
+        npc.TriggerNextStep();
+        enabled = false;
     }
 
-    // Update is called once per frame
-    void Update()
+    class DogBeamFollow : MonoBehaviour
     {
+        public Transform ufo;
+        public Vector3 offset;
 
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.name == dog.name)
+        void Update()
         {
-            dog.transform.position = gameObject.transform.position;
-            gameObject.transform.rotation *= Quaternion.Euler(1, 0, 0);
+            if (!ufo) return;
+            transform.position = ufo.position + offset;
+            transform.Rotate(0, 0, 180 * Time.deltaTime);
         }
     }
 }
