@@ -414,11 +414,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 10
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":240.5,"yPos":460},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Continue?","parentUIDs":[9],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":236,"yPos":-188},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Billy
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":218.5,"yPos":670},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Continue?","parentUIDs":[9],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":214,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Billy
     goes to leave, only to find the heavy bins have fallen in front of the door blocking
-    his exit...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":233.5,"yPos":-89},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Not
-    another problem! Every day is the same and still there''s new problems!","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":235.5,"yPos":28},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":236.5,"yPos":139},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
-    gonna be ok Mum, I''ll still be on time if I get the one in half an hour..","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":237.5,"yPos":255},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":233,"yPos":353},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"And
+    his exit...","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":211.5,"yPos":121},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"Not
+    another problem! Every day is the same and still there''s new problems!","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":213.5,"yPos":238},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":214.5,"yPos":349},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    gonna be ok Mum, I''ll still be on time if I get the one in half an hour..","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":215.5,"yPos":465},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":8}],"EditorInfo":{"isRoot":false,"xPos":211,"yPos":563},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"And
     thus yet another Monday comes to pass...","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Clock","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -432,23 +432,11 @@ MonoBehaviour:
   - {fileID: 1204667544}
   - {fileID: 1204667548}
   - {fileID: 1204667549}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  ContinueFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: levelLoader, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &1020254248
 Transform:
   m_ObjectHideFlags: 0
@@ -626,9 +614,9 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 500345438943263677}
         m_TargetAssemblyTypeName: levelLoader, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: newDayCutscene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1032,6 +1020,17 @@ PrefabInstance:
       addedObject: {fileID: 835991575}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aef6653afa98bc4a882c832fbb5f110, type: 3}
+--- !u!114 &500345438943263677 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6963507545129425686, guid: 8aef6653afa98bc4a882c832fbb5f110, type: 3}
+  m_PrefabInstance: {fileID: 500345438943263676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616f438ea89ec0742acaa8acaeea6989, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

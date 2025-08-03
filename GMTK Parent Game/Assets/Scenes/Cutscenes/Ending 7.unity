@@ -413,39 +413,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 35
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":120.5,"yPos":-2083},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Continue?","parentUIDs":[],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":399,"yPos":-2622},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Finally!
-    You got Billy out to the bus on time! Finally a Monday that''s different!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":405.5,"yPos":-2514},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":398.5,"yPos":-2406},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"and
-    yet, he seems angry, glaring at you as he goes...","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":399.5,"yPos":-2295},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Finally!
-    I''ve gotten everything under control!","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":400.5,"yPos":-2183},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Everything
-    was right! A perfect Monday morning!","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":397,"yPos":-2086},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Finally,
+  CurrentIDCounter: 41
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-150.5,"yPos":-1860},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"Continue?","parentUIDs":[],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":128,"yPos":-2399},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Finally!
+    You got Billy out to the bus on time! Finally a Monday that''s different!","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":134.5,"yPos":-2291},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":127.5,"yPos":-2183},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"and
+    yet, he seems angry, glaring at you as he goes...","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":128.5,"yPos":-2072},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Finally!
+    I''ve gotten everything under control!","parentUIDs":[4],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":129.5,"yPos":-1960},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Everything
+    was right! A perfect Monday morning!","parentUIDs":[6],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":126,"yPos":-1863},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Finally,
     you are free to spend the day as you wish, getting all of your many jobs and
-    errands done...","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":397,"yPos":-1979},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Comfortable
-    in the fact that you can finally move on happily to tomorrow.","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":396,"yPos":-1861},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":400,"yPos":-1757},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"and
-    yet you don''t feel happy at the end of the day. And neither does Billy...\n","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":392,"yPos":-1645},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"And
-    thus another Monday comes around.\n","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":395,"yPos":-1528},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    hurry into Billy''s room to wake him, but he''s already up","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":384,"yPos":-1399},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    glad to see you''re finally taking after me!","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":377,"yPos":-1285},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    just didn''t wanna be yelled at...","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":372,"yPos":-983},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
+    errands done...","parentUIDs":[7],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":126,"yPos":-1756},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"Comfortable
+    in the fact that you can finally move on happily to tomorrow.","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":125,"yPos":-1638},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":129,"yPos":-1534},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"and
+    yet you don''t feel happy at the end of the day. And neither does Billy...\n","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":121,"yPos":-1422},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"And
+    thus another Monday comes around.\n","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":124,"yPos":-1305},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    hurry into Billy''s room to wake him, but he''s already up","parentUIDs":[15],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":19}],"EditorInfo":{"isRoot":false,"xPos":113,"yPos":-1176},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    glad to see you''re finally taking after me!","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":106,"yPos":-1062},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    just didn''t wanna be yelled at...","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":109,"yPos":-958},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Well
     now that''s not fair, I''m just trying to help you be organised! It''s for your
-    own good!","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":390,"yPos":-1075},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"No!
-    It''s not! It''s stressing me out! And you don''t seem happy either!","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":393,"yPos":-1149},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"Every
-    day you''re in such a hurry now! Especially on Mondays! I can''t stand it!","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":372,"yPos":-843},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"For
-    a moment everything seems off. It''s true you prioritise Mondays..","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":374,"yPos":-732},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    own good!","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":129,"yPos":-867},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"No!
+    It''s not! It''s stressing me out! And you don''t seem happy either!","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":112,"yPos":-750},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"Every
+    day you''re in such a hurry now! Especially on Mondays! I can''t stand it!","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":101,"yPos":-620},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"For
+    a moment everything seems off. It''s true you prioritise Mondays..","parentUIDs":[22],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":103,"yPos":-509},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"The
     best way to start the week is to get everything right! Then everything else will
-    follow..!","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":364,"yPos":-619},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Has
-    this obsession started to get in the way of everything else..?","parentUIDs":[24],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":363,"yPos":-508},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Could
+    follow..!","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":93,"yPos":-396},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Has
+    this obsession started to get in the way of everything else..?","parentUIDs":[24],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":92,"yPos":-285},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Could
     this be why you''ve been felt like you were trapped in a loop? Were you neglecting
-    everything else..?","parentUIDs":[25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":363,"yPos":-386},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Please
+    everything else..?","parentUIDs":[25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":92,"yPos":-163},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Please
     can we just have one normal day..? Please? I promise I''ll still be on time!
-    We don''t have to rush..!","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":342,"yPos":-257},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Well...
-    I suppose, it couldn''t hurt just once... Why don''t we have breakfast together..?","parentUIDs":[27],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":342,"yPos":-141},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"And
-    thus as Monday passes and draws to a close...","parentUIDs":[28],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":333,"yPos":-24},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Tuesday
-    comes around! and then Wednesday, and Thursday!","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":327,"yPos":85},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    We don''t have to rush..!","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":71,"yPos":-34},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Well...
+    I suppose, it couldn''t hurt just once... Why don''t we have breakfast together..?","parentUIDs":[27],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":74,"yPos":85},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"And
+    thus as Monday passes and draws to a close...","parentUIDs":[38],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":31}],"EditorInfo":{"isRoot":false,"xPos":85,"yPos":189},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Tuesday
+    comes around! and then Wednesday, and Thursday!","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":56,"yPos":308},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"I
     still find it hard not to worry about everything.. but just taking it a little
-    bit easier...","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":324,"yPos":185},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    no longer feel like I''m stuck in a loop!","parentUIDs":[31],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":312,"yPos":296},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"The
-    end....!","parentUIDs":[32],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    bit easier...","parentUIDs":[30],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":59,"yPos":417},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    no longer feel like I''m stuck in a loop!","parentUIDs":[31],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":41,"yPos":519},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    end....!","parentUIDs":[32],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":304,"yPos":46},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"And
+    we could put on the TV as well, just this once.","parentUIDs":[28],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":39}],"EditorInfo":{"isRoot":false,"xPos":317,"yPos":160},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Shortly
+    later...","parentUIDs":[35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":328,"yPos":283},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+    is much nicer!","parentUIDs":[39],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Billy","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":333,"yPos":453},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"...
+    It is, isn''t it.","parentUIDs":[40],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Margaret","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":37}],"EditorInfo":{"isRoot":false,"xPos":566,"yPos":198},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"*Munch
+    Munch Munch*","parentUIDs":[36],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":570,"yPos":346},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"In
+    other news, the recently revived Queen, has been taken by aliens!","parentUIDs":[37],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"News
+    Caster","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -479,8 +486,14 @@ MonoBehaviour:
   - {fileID: 1204667551}
   - {fileID: 1204667550}
   - {fileID: 1204667549}
-  ContinueFont: {fileID: 0}
-  EndConversationFont: {fileID: 0}
+  - {fileID: 1204667576}
+  - {fileID: 1204667575}
+  - {fileID: 1204667574}
+  - {fileID: 1204667573}
+  - {fileID: 1204667572}
+  - {fileID: 1204667571}
+  ContinueFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  EndConversationFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
   Event:
     m_PersistentCalls:
       m_Calls: []
@@ -550,6 +563,12 @@ GameObject:
   - component: {fileID: 1204667551}
   - component: {fileID: 1204667550}
   - component: {fileID: 1204667549}
+  - component: {fileID: 1204667576}
+  - component: {fileID: 1204667575}
+  - component: {fileID: 1204667574}
+  - component: {fileID: 1204667573}
+  - component: {fileID: 1204667572}
+  - component: {fileID: 1204667571}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -712,7 +731,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 500345438943263677}
+        m_TargetAssemblyTypeName: levelLoader, Assembly-CSharp
+        m_MethodName: quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 34
   TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
   Icon: {fileID: 0}
@@ -734,7 +765,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 32
   TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
-  Icon: {fileID: 21300000, guid: 57107466c98acc844990f8e82bf98a0f, type: 3}
+  Icon: {fileID: 21300000, guid: a9ce0b7832e85f94abf9385b5a270489, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &1204667551
 MonoBehaviour:
@@ -1116,6 +1147,120 @@ MonoBehaviour:
   TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
   Icon: {fileID: 21300000, guid: 72f062e11a431664fb561353d8e59679, type: 3}
   Audio: {fileID: 0}
+--- !u!114 &1204667571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204667541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 40
+  TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  Icon: {fileID: 21300000, guid: 746969e2285e8144f8f76ca73c904218, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1204667572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204667541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 39
+  TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  Icon: {fileID: 21300000, guid: a5ad038ec12aff945aab0bc131ba64bc, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1204667573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204667541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 38
+  TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  Icon: {fileID: 21300000, guid: a9ce0b7832e85f94abf9385b5a270489, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1204667574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204667541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 37
+  TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  Icon: {fileID: 21300000, guid: eb3dd80c930f1a74f8872c7e861103e8, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1204667575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204667541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 36
+  TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  Icon: {fileID: 21300000, guid: 72f062e11a431664fb561353d8e59679, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1204667576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204667541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 35
+  TMPFont: {fileID: 11400000, guid: 1ce7f9abe5e659b4ab416d80f5ae480e, type: 2}
+  Icon: {fileID: 21300000, guid: 57107466c98acc844990f8e82bf98a0f, type: 3}
+  Audio: {fileID: 0}
 --- !u!1 &1948890378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,6 +1632,17 @@ PrefabInstance:
       addedObject: {fileID: 835991575}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8aef6653afa98bc4a882c832fbb5f110, type: 3}
+--- !u!114 &500345438943263677 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6963507545129425686, guid: 8aef6653afa98bc4a882c832fbb5f110, type: 3}
+  m_PrefabInstance: {fileID: 500345438943263676}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 616f438ea89ec0742acaa8acaeea6989, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
