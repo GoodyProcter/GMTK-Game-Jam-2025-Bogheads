@@ -7,11 +7,12 @@ public class binPushed : MonoBehaviour
     public GameObject gene;
     public bool hasGeneCollided = false;
     public string flagName = "";
+    public Rigidbody2D rigidbody;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rigidbody = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -40,6 +41,10 @@ public class binPushed : MonoBehaviour
         gameObject.transform.position = new Vector3 (-0, -3, -1);
 
         GameFlags.Instance.SetFlag(flagName, true);
+
+        rigidbody.constraints = RigidbodyConstraints2D.FreezePosition;
+
+
 
     }
 }
