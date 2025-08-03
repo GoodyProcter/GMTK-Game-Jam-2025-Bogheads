@@ -11,4 +11,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level.unity
     guid: 476ebe58846d2ce45a29ceececb9f99a
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 1.unity
+    guid: 6c54413a9d136b049825f74ede15677e
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 2.unity
+    guid: 1a149a98f540f3e4a9ce585bbd149b1d
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 3.unity
+    guid: fc5bc48b6a7a5af41a62addedf6e8280
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 4.unity
+    guid: 54f05a97537012d40be1f53e137444dd
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 5.unity
+    guid: d6e34538b3cc262478d4a976da96ad7f
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 6 Muddy.unity
+    guid: 3331996350fa1c34da074518460f47f6
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Ending 7.unity
+    guid: ea0e88222801c574dba0ccab8d0f216f
   m_configObjects: {}

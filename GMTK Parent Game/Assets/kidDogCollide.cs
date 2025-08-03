@@ -10,6 +10,10 @@ public class kidDogCollide : MonoBehaviour
     public GameObject dog;
     [SerializeField] bool kidEntered = false;
     [SerializeField] bool dogEntered = false;
+    kidMuddySpriteChange kidMuddySpriteChange;
+    
+
+    public EndingTriggers endingTriggers;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +27,8 @@ public class kidDogCollide : MonoBehaviour
         {
             interactableKid.Interact();
             interactableDog.Interact();
+            endingTriggers.kidMuddy = true;
+            kidMuddySpriteChange.kidMuddy = true;
         }
     }
 

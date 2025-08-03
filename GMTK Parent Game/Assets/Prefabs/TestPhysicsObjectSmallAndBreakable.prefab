@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 20.99, y: -5.17, z: -0.48}
-  m_LocalScale: {x: 1.05, y: 1.05, z: 1.05}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -177,9 +177,9 @@ MonoBehaviour:
   playerMovement: {fileID: 0}
   particles: {fileID: 1276204933966988043, guid: a336669a29c93b0419e9d26d33d98d22, type: 3}
   randomBreakables:
-  - {fileID: 21300000, guid: 35b0444d20f680d438157b0de19e0222, type: 3}
-  - {fileID: 21300000, guid: b991a2012130dc6499f7664074d0c35c, type: 3}
-  - {fileID: 21300000, guid: d3a2a8f18d5485d4eaeb1183fdfa3fbf, type: 3}
+  - {fileID: 21300000, guid: a482da50a43269a48947b265aa96972c, type: 3}
+  - {fileID: 21300000, guid: 51ae0edf87dc0a545afd9a1e2fc69d80, type: 3}
+  - {fileID: 21300000, guid: cc115c21efe6b6a4a8415021ced4acaf, type: 3}
 --- !u!114 &555745497577352031
 MonoBehaviour:
   m_ObjectHideFlags: 0

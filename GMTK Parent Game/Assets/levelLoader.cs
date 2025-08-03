@@ -22,13 +22,13 @@ public class levelLoader : MonoBehaviour
 
     public void newDayCutscene()
     {
-        StartCoroutine("LoadCutscene");
+        SceneManager.LoadScene(0);
     }
 
     public void goToLevel()
     {
-        
-        StartCoroutine("LoadLevel");
+
+        SceneManager.LoadScene(1);
         
     }
 
@@ -43,19 +43,4 @@ public class levelLoader : MonoBehaviour
     }
     
 
-    IEnumerator LoadLevel()
-    {
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(1);
-
-    }
-
-    IEnumerator loadCutscene()
-    {
-        transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(0);
-
-    }
 }

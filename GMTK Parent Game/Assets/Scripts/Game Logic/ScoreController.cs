@@ -19,7 +19,7 @@ public class ScoreController : MonoBehaviour
     void Start()
     {
         score = 0;
-        timer = 180;
+        timer = 40;
         scoreText.SetText("Score: " + score.ToString());
     }
 
